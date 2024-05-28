@@ -25,6 +25,8 @@ public class Calculator {
                 }
             case '^':
                 return Math.pow(num1, num2);
+            case '%':
+                return num1 % num2;
             default:
                 return Double.NaN; // Indicate invalid operator.
         }
